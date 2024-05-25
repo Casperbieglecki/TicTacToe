@@ -8,7 +8,7 @@ def Game():
     root.geometry('500x500')
     root.title('Tic Tac Toe')
 
-    #root = tk.Frame(root)
+    #create grid
     root.columnconfigure(0, weight=1)
     root.columnconfigure(1, weight=1)
     root.columnconfigure(2, weight=1)
