@@ -68,6 +68,7 @@ def Game():
 
 
     def onClick(but):
+        #Command function
         nonlocal turn_track
         turn_track += 1
         if turn_track%2 == 0:
